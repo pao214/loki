@@ -21,16 +21,16 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/local"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/downloads"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/indexgateway"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/storage"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/testutil"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/util"
-	util_math "github.com/grafana/loki/pkg/util/math"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/pao214/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/storage/chunk/local"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/downloads"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/indexgateway"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/testutil"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/util"
+	util_math "github.com/pao214/loki/pkg/util/math"
+	"github.com/pao214/loki/pkg/validation"
 )
 
 const (

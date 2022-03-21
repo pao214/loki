@@ -11,10 +11,10 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/stores/shipper"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/storage"
+	"github.com/pao214/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/storage/stores/shipper"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 const (

@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
+	"github.com/pao214/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/storage/chunk/cache"
 )
 
 var ctx = user.InjectOrgID(context.Background(), "1")

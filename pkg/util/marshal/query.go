@@ -9,9 +9,9 @@ import (
 	"github.com/prometheus/prometheus/promql"
 	"github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/grafana/loki/pkg/loghttp"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logqlmodel"
+	"github.com/pao214/loki/pkg/loghttp"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logqlmodel"
 )
 
 // NewResultValue constructs a ResultValue from a promql.Value

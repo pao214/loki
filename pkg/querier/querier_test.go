@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki/pkg/storage/stores/shipper/compactor/deletion"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/compactor/deletion"
 
 	"github.com/grafana/dskit/flagext"
 	"github.com/grafana/dskit/ring"
@@ -20,11 +20,11 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/ingester/client"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/pao214/loki/pkg/ingester/client"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logql"
+	"github.com/pao214/loki/pkg/storage"
+	"github.com/pao214/loki/pkg/validation"
 )
 
 const (

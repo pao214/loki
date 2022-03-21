@@ -18,12 +18,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql/log"
-	"github.com/grafana/loki/pkg/logqlmodel/stats"
-	"github.com/grafana/loki/pkg/storage/chunk/encoding"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/iter"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logql/log"
+	"github.com/pao214/loki/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/pkg/storage/chunk/encoding"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 const (

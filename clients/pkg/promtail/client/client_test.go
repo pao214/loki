@@ -20,11 +20,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/clients/pkg/promtail/api"
+	"github.com/pao214/loki/clients/pkg/promtail/api"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/util"
-	lokiflag "github.com/grafana/loki/pkg/util/flagext"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/util"
+	lokiflag "github.com/pao214/loki/pkg/util/flagext"
 )
 
 var logEntries = []api.Entry{

@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/storage/chunk"
 )
 
 type tableClient struct {

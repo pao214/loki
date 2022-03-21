@@ -8,11 +8,11 @@ import (
 	"github.com/grafana/dskit/flagext"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	"github.com/grafana/loki/pkg/storage/chunk/gcp"
-	"github.com/grafana/loki/pkg/storage/chunk/testutils"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/pao214/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/storage/chunk/cache"
+	"github.com/pao214/loki/pkg/storage/chunk/gcp"
+	"github.com/pao214/loki/pkg/storage/chunk/testutils"
+	"github.com/pao214/loki/pkg/validation"
 )
 
 type fixture struct {

@@ -13,10 +13,10 @@ import (
 	"github.com/prometheus/common/version"
 	"github.com/weaveworks/common/logging"
 
-	_ "github.com/grafana/loki/pkg/util/build"
+	_ "github.com/pao214/loki/pkg/util/build"
 )
 import (
-	"github.com/grafana/loki/clients/pkg/promtail/client"
+	"github.com/pao214/loki/clients/pkg/promtail/client"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -14,10 +14,10 @@ import (
 	httpgrpc_server "github.com/weaveworks/common/httpgrpc/server"
 	"github.com/weaveworks/common/middleware"
 
-	querier_worker "github.com/grafana/loki/pkg/querier/worker"
-	"github.com/grafana/loki/pkg/util/httpreq"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	serverutil "github.com/grafana/loki/pkg/util/server"
+	querier_worker "github.com/pao214/loki/pkg/querier/worker"
+	"github.com/pao214/loki/pkg/util/httpreq"
+	util_log "github.com/pao214/loki/pkg/util/log"
+	serverutil "github.com/pao214/loki/pkg/util/server"
 )
 
 type WorkerServiceConfig struct {

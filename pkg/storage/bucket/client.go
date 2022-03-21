@@ -11,12 +11,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/thanos-io/thanos/pkg/objstore"
 
-	"github.com/grafana/loki/pkg/storage/bucket/azure"
-	"github.com/grafana/loki/pkg/storage/bucket/filesystem"
-	"github.com/grafana/loki/pkg/storage/bucket/gcs"
-	"github.com/grafana/loki/pkg/storage/bucket/s3"
-	"github.com/grafana/loki/pkg/storage/bucket/swift"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/pao214/loki/pkg/storage/bucket/azure"
+	"github.com/pao214/loki/pkg/storage/bucket/filesystem"
+	"github.com/pao214/loki/pkg/storage/bucket/gcs"
+	"github.com/pao214/loki/pkg/storage/bucket/s3"
+	"github.com/pao214/loki/pkg/storage/bucket/swift"
+	"github.com/pao214/loki/pkg/util"
 )
 
 const (

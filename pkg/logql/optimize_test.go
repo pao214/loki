@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logql/syntax"
+	"github.com/pao214/loki/pkg/logql/syntax"
 )
 
 func Test_optimizeSampleExpr(t *testing.T) {

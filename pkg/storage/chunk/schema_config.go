@@ -14,8 +14,8 @@ import (
 	"github.com/weaveworks/common/mtime"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/util/math"
+	"github.com/pao214/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/util/math"
 )
 
 const (

@@ -13,10 +13,10 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	prom_chunk "github.com/grafana/loki/pkg/storage/chunk/encoding"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/storage/chunk/cache"
+	prom_chunk "github.com/pao214/loki/pkg/storage/chunk/encoding"
 )
 
 const userID = "1"

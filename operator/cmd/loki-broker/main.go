@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/ViaQ/logerr/log"
-	"github.com/grafana/loki/operator/api/v1beta1"
-	"github.com/grafana/loki/operator/internal/manifests"
-	"github.com/grafana/loki/operator/internal/manifests/storage"
+	"github.com/pao214/loki/operator/api/v1beta1"
+	"github.com/pao214/loki/operator/internal/manifests"
+	"github.com/pao214/loki/operator/internal/manifests/storage"
 	"sigs.k8s.io/yaml"
 )
 

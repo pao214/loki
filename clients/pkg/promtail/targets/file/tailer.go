@@ -11,11 +11,11 @@ import (
 	"github.com/prometheus/common/model"
 	"go.uber.org/atomic"
 
-	"github.com/grafana/loki/clients/pkg/promtail/api"
-	"github.com/grafana/loki/clients/pkg/promtail/positions"
+	"github.com/pao214/loki/clients/pkg/promtail/api"
+	"github.com/pao214/loki/clients/pkg/promtail/positions"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/util"
 )
 
 type tailer struct {

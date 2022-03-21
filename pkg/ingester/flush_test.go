@@ -20,17 +20,17 @@ import (
 	"github.com/weaveworks/common/user"
 	"golang.org/x/net/context"
 
-	"github.com/grafana/loki/pkg/chunkenc"
-	"github.com/grafana/loki/pkg/ingester/client"
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/logql/log"
-	"github.com/grafana/loki/pkg/runtime"
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/tenant"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/pao214/loki/pkg/chunkenc"
+	"github.com/pao214/loki/pkg/ingester/client"
+	"github.com/pao214/loki/pkg/iter"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logql"
+	"github.com/pao214/loki/pkg/logql/log"
+	"github.com/pao214/loki/pkg/runtime"
+	"github.com/pao214/loki/pkg/storage"
+	"github.com/pao214/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/tenant"
+	"github.com/pao214/loki/pkg/validation"
 )
 
 const (

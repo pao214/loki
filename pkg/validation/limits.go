@@ -13,9 +13,9 @@ import (
 	"golang.org/x/time/rate"
 	"gopkg.in/yaml.v2"
 
-	"github.com/grafana/loki/pkg/logql/syntax"
-	"github.com/grafana/loki/pkg/ruler/util"
-	"github.com/grafana/loki/pkg/util/flagext"
+	"github.com/pao214/loki/pkg/logql/syntax"
+	"github.com/pao214/loki/pkg/ruler/util"
+	"github.com/pao214/loki/pkg/util/flagext"
 )
 
 const (

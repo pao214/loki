@@ -16,9 +16,9 @@ import (
 	"github.com/weaveworks/common/user"
 	"golang.org/x/net/context"
 
-	"github.com/grafana/loki/pkg/logproto"
-	lokiutil "github.com/grafana/loki/pkg/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/logproto"
+	lokiutil "github.com/pao214/loki/pkg/util"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 var (

@@ -9,9 +9,9 @@ import (
 	json "github.com/json-iterator/go"
 	"github.com/stretchr/testify/require"
 
-	loghttp "github.com/grafana/loki/pkg/loghttp/legacy"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logqlmodel"
+	loghttp "github.com/pao214/loki/pkg/loghttp/legacy"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logqlmodel"
 )
 
 // covers responses from /api/prom/query

@@ -12,13 +12,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/grafana/loki/clients/pkg/logentry/stages"
-	"github.com/grafana/loki/clients/pkg/promtail/api"
-	"github.com/grafana/loki/clients/pkg/promtail/client/fake"
-	"github.com/grafana/loki/clients/pkg/promtail/scrapeconfig"
+	"github.com/pao214/loki/clients/pkg/logentry/stages"
+	"github.com/pao214/loki/clients/pkg/promtail/api"
+	"github.com/pao214/loki/clients/pkg/promtail/client/fake"
+	"github.com/pao214/loki/clients/pkg/promtail/scrapeconfig"
 
-	"github.com/grafana/loki/pkg/logproto"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/logproto"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 func Test_newReaderTarget(t *testing.T) {

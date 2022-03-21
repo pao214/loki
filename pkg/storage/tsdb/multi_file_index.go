@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/grafana/loki/pkg/storage/tsdb/index"
+	"github.com/pao214/loki/pkg/storage/tsdb/index"
 )
 
 type MultiIndex struct {

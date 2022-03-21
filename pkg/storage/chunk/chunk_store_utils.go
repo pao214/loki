@@ -11,9 +11,9 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/promql"
 
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/util/spanlogger"
+	"github.com/pao214/loki/pkg/storage/chunk/cache"
+	util_log "github.com/pao214/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/util/spanlogger"
 )
 
 var (

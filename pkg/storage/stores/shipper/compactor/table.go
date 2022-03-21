@@ -17,12 +17,12 @@ import (
 	"github.com/prometheus/common/model"
 	"go.etcd.io/bbolt"
 
-	"github.com/grafana/loki/pkg/storage/chunk/local"
-	chunk_util "github.com/grafana/loki/pkg/storage/chunk/util"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/compactor/retention"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/storage"
-	shipper_util "github.com/grafana/loki/pkg/storage/stores/shipper/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/storage/chunk/local"
+	chunk_util "github.com/pao214/loki/pkg/storage/chunk/util"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/compactor/retention"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/storage"
+	shipper_util "github.com/pao214/loki/pkg/storage/stores/shipper/util"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

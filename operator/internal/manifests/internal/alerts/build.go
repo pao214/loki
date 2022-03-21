@@ -13,7 +13,7 @@ import (
 
 const (
 	// RunbookDefaultURL is the default url for the documentation of the Prometheus alerts
-	RunbookDefaultURL = "https://github.com/grafana/loki/tree/main/operator/docs/alerts.md"
+	RunbookDefaultURL = "https://github.com/pao214/loki/tree/main/operator/docs/alerts.md"
 )
 
 var (

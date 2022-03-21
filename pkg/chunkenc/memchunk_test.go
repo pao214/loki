@@ -18,14 +18,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage/chunk/encoding"
+	"github.com/pao214/loki/pkg/storage/chunk/encoding"
 
-	"github.com/grafana/loki/pkg/chunkenc/testdata"
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql/log"
-	"github.com/grafana/loki/pkg/logql/syntax"
-	"github.com/grafana/loki/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/pkg/chunkenc/testdata"
+	"github.com/pao214/loki/pkg/iter"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logql/log"
+	"github.com/pao214/loki/pkg/logql/syntax"
+	"github.com/pao214/loki/pkg/logqlmodel/stats"
 )
 
 var testEncoding = []Encoding{

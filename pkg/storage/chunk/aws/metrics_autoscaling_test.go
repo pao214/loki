@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/mtime"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/storage/chunk"
 )
 
 const (

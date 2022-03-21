@@ -15,13 +15,13 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/grafana/loki/pkg/loghttp"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logqlmodel/stats"
-	"github.com/grafana/loki/pkg/querier/queryrange/queryrangebase"
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	"github.com/grafana/loki/pkg/tenant"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/pao214/loki/pkg/loghttp"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/pkg/querier/queryrange/queryrangebase"
+	"github.com/pao214/loki/pkg/storage/chunk/cache"
+	"github.com/pao214/loki/pkg/tenant"
+	"github.com/pao214/loki/pkg/util/validation"
 )
 
 // LogResultCacheMetrics is the metrics wrapper used in log result cache.

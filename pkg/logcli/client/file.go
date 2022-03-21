@@ -12,13 +12,13 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/loghttp"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	logqllog "github.com/grafana/loki/pkg/logql/log"
-	"github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/util/marshal"
+	"github.com/pao214/loki/pkg/iter"
+	"github.com/pao214/loki/pkg/loghttp"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logql"
+	logqllog "github.com/pao214/loki/pkg/logql/log"
+	"github.com/pao214/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/util/marshal"
 
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/weaveworks/common/user"

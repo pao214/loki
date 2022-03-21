@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/storage"
 
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage/chunk/local"
+	"github.com/pao214/loki/pkg/storage/chunk/local"
 )
 
 func TestDeleteRequestsStore(t *testing.T) {

@@ -16,13 +16,13 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/grafana/loki/pkg/lokifrontend/frontend/v1/frontendv1pb"
-	"github.com/grafana/loki/pkg/querier/stats"
-	"github.com/grafana/loki/pkg/scheduler/queue"
-	"github.com/grafana/loki/pkg/tenant"
-	"github.com/grafana/loki/pkg/util"
-	lokigrpc "github.com/grafana/loki/pkg/util/httpgrpc"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/pao214/loki/pkg/lokifrontend/frontend/v1/frontendv1pb"
+	"github.com/pao214/loki/pkg/querier/stats"
+	"github.com/pao214/loki/pkg/scheduler/queue"
+	"github.com/pao214/loki/pkg/tenant"
+	"github.com/pao214/loki/pkg/util"
+	lokigrpc "github.com/pao214/loki/pkg/util/httpgrpc"
+	"github.com/pao214/loki/pkg/util/validation"
 )
 
 var errTooManyRequest = httpgrpc.Errorf(http.StatusTooManyRequests, "too many outstanding requests")

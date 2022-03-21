@@ -13,13 +13,13 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/querier/queryrange/queryrangebase"
-	"github.com/grafana/loki/pkg/tenant"
-	"github.com/grafana/loki/pkg/util"
-	"github.com/grafana/loki/pkg/util/spanlogger"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logql"
+	"github.com/pao214/loki/pkg/querier/queryrange/queryrangebase"
+	"github.com/pao214/loki/pkg/tenant"
+	"github.com/pao214/loki/pkg/util"
+	"github.com/pao214/loki/pkg/util/spanlogger"
+	"github.com/pao214/loki/pkg/util/validation"
 )
 
 const (

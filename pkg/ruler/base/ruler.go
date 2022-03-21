@@ -31,13 +31,13 @@ import (
 	"github.com/weaveworks/common/user"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/ruler/rulespb"
-	"github.com/grafana/loki/pkg/ruler/rulestore"
-	"github.com/grafana/loki/pkg/tenant"
-	"github.com/grafana/loki/pkg/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/ruler/rulespb"
+	"github.com/pao214/loki/pkg/ruler/rulestore"
+	"github.com/pao214/loki/pkg/tenant"
+	"github.com/pao214/loki/pkg/util"
+	util_log "github.com/pao214/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/util/validation"
 )
 
 var (

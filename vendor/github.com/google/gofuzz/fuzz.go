@@ -22,6 +22,9 @@ import (
 	"reflect"
 	"regexp"
 	"time"
+
+	"github.com/google/gofuzz/bytesource"
+	"strings"
 )
 
 // fuzzFuncMap is a map from a type to a fuzzFunc that handles that type.
@@ -59,6 +62,34 @@ func NewWithSeed(seed int64) *Fuzzer {
 		maxDepth:    100,
 	}
 	return f
+}
+
+// NewFromGoFuzz is a helper function that enables using gofuzz (this
+// project) with go-fuzz (https://github.com/dvyukov/go-fuzz) for continuous
+// fuzzing. Essentially, it enables translating the fuzzing bytes from
+// go-fuzz to any Go object using this library.
+//
+// This implementation promises a constant translation from a given slice of
+// bytes to the fuzzed objects. This promise will remain over future
+// versions of Go and of this library.
+//
+// Note: the returned Fuzzer should not be shared between multiple goroutines,
+// as its deterministic output will no longer be available.
+//
+// Example: use go-fuzz to test the function `MyFunc(int)` in the package
+// `mypackage`. Add the file: "mypacakge_fuzz.go" with the content:
+//
+// // +build gofuzz
+// package mypacakge
+// import fuzz "github.com/google/gofuzz"
+// func Fuzz(data []byte) int {
+// 	var i int
+// 	fuzz.NewFromGoFuzz(data).Fuzz(&i)
+// 	MyFunc(i)
+// 	return 0
+// }
+func NewFromGoFuzz(data []byte) *Fuzzer {
+	return New().RandSource(bytesource.New(data))
 }
 
 // Funcs adds each entry in fuzzFuncs as a custom fuzzing function.
@@ -450,10 +481,10 @@ var fillFuncMap = map[reflect.Kind]func(reflect.Value, *rand.Rand){
 		v.SetFloat(r.Float64())
 	},
 	reflect.Complex64: func(v reflect.Value, r *rand.Rand) {
-		panic("unimplemented")
+		v.SetComplex(complex128(complex(r.Float32(), r.Float32())))
 	},
 	reflect.Complex128: func(v reflect.Value, r *rand.Rand) {
-		panic("unimplemented")
+		v.SetComplex(complex(r.Float64(), r.Float64()))
 	},
 	reflect.String: func(v reflect.Value, r *rand.Rand) {
 		v.SetString(randString(r))
@@ -465,10 +496,11 @@ var fillFuncMap = map[reflect.Kind]func(reflect.Value, *rand.Rand){
 
 // randBool returns true or false randomly.
 func randBool(r *rand.Rand) bool {
-	if r.Int()&1 == 1 {
-		return true
-	}
-	return false
+	return r.Int31()&(1<<30) == 0
+}
+
+type int63nPicker interface {
+	Int63n(int64) int64
 }
 
 type charRange struct {
@@ -477,9 +509,9 @@ type charRange struct {
 
 // choose returns a random unicode character from the given range, using the
 // given randomness source.
-func (r *charRange) choose(rand *rand.Rand) rune {
-	count := int64(r.last - r.first)
-	return r.first + rune(rand.Int63n(count))
+func (cr charRange) choose(r int63nPicker) rune {
+	count := int64(cr.last - cr.first + 1)
+	return cr.first + rune(r.Int63n(count))
 }
 
 var unicodeRanges = []charRange{
@@ -492,11 +524,12 @@ var unicodeRanges = []charRange{
 // may include a variety of (valid) UTF-8 encodings.
 func randString(r *rand.Rand) string {
 	n := r.Intn(20)
-	runes := make([]rune, n)
-	for i := range runes {
-		runes[i] = unicodeRanges[r.Intn(len(unicodeRanges))].choose(r)
+	sb := strings.Builder{}
+	sb.Grow(n)
+	for i := 0; i < n; i++ {
+		sb.WriteRune(unicodeRanges[r.Intn(len(unicodeRanges))].choose(r))
 	}
-	return string(runes)
+	return sb.String()
 }
 
 // randUint64 makes random 64 bit numbers.

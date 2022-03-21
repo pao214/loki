@@ -19,9 +19,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/test"
 
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	"github.com/grafana/loki/pkg/storage/chunk/encoding"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/pao214/loki/pkg/storage/chunk/cache"
+	"github.com/pao214/loki/pkg/storage/chunk/encoding"
+	"github.com/pao214/loki/pkg/util/validation"
 )
 
 type configFactory func() StoreConfig

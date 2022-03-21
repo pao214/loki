@@ -13,12 +13,12 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/clients/pkg/promtail/api"
-	"github.com/grafana/loki/clients/pkg/promtail/client/fake"
+	"github.com/pao214/loki/clients/pkg/promtail/api"
+	"github.com/pao214/loki/clients/pkg/promtail/client/fake"
 
-	"github.com/grafana/loki/pkg/logproto"
-	lokiflag "github.com/grafana/loki/pkg/util/flagext"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/logproto"
+	lokiflag "github.com/pao214/loki/pkg/util/flagext"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 var (

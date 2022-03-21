@@ -9,8 +9,8 @@ import (
 	"github.com/prometheus/prometheus/tsdb/record"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/chunkenc"
-	"github.com/grafana/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/chunkenc"
+	"github.com/pao214/loki/pkg/logproto"
 )
 
 func Test_Encoding_Series(t *testing.T) {

@@ -18,13 +18,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql/syntax"
-	"github.com/grafana/loki/pkg/logqlmodel"
-	"github.com/grafana/loki/pkg/logqlmodel/stats"
-	"github.com/grafana/loki/pkg/util"
-	"github.com/grafana/loki/pkg/util/httpreq"
+	"github.com/pao214/loki/pkg/iter"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logql/syntax"
+	"github.com/pao214/loki/pkg/logqlmodel"
+	"github.com/pao214/loki/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/pkg/util"
+	"github.com/pao214/loki/pkg/util/httpreq"
 )
 
 var (

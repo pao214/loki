@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/util"
 )
 
 func TestNewPeekingSampleIterator(t *testing.T) {

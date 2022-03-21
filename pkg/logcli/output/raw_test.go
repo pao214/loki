@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/grafana/loki/pkg/loghttp"
+	"github.com/pao214/loki/pkg/loghttp"
 )
 
 func TestRawOutput_Format(t *testing.T) {

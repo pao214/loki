@@ -8,8 +8,8 @@ import (
 	"github.com/prometheus/prometheus/promql/parser"
 	"github.com/prometheus/prometheus/storage"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/querier/series"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/querier/series"
 )
 
 // FromResult transforms a promql query result into a samplestream

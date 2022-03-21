@@ -13,12 +13,12 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	chunk_util "github.com/grafana/loki/pkg/storage/chunk/util"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/storage"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/pao214/loki/pkg/storage/chunk"
+	chunk_util "github.com/pao214/loki/pkg/storage/chunk/util"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/pkg/storage/stores/shipper/util"
+	util_log "github.com/pao214/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/validation"
 )
 
 const (

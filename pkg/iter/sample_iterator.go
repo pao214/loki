@@ -6,9 +6,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logqlmodel/stats"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/pao214/loki/pkg/logproto"
+	"github.com/pao214/loki/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/pkg/util"
 )
 
 // SampleIterator iterates over samples in time-order.

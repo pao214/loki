@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage/tsdb/index"
+	"github.com/pao214/loki/pkg/storage/tsdb/index"
 )
 
 func TestSingleIdx(t *testing.T) {

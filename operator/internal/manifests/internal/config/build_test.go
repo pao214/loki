@@ -3,8 +3,8 @@ package config
 import (
 	"testing"
 
-	lokiv1beta1 "github.com/grafana/loki/operator/api/v1beta1"
-	"github.com/grafana/loki/operator/internal/manifests/storage"
+	lokiv1beta1 "github.com/pao214/loki/operator/api/v1beta1"
+	"github.com/pao214/loki/operator/internal/manifests/storage"
 	"github.com/stretchr/testify/require"
 )
 
@@ -71,7 +71,7 @@ ingester_client:
 #
 # Values for not exposed fields are taken from the grafana/loki production
 # configuration manifests.
-# (See https://github.com/grafana/loki/blob/main/production/ksonnet/loki/config.libsonnet)
+# (See https://github.com/pao214/loki/blob/main/production/ksonnet/loki/config.libsonnet)
 limits_config:
   ingestion_rate_strategy: global
   ingestion_rate_mb: 4
@@ -85,7 +85,7 @@ limits_config:
   enforce_metric_name: false
   # Keep max_streams_per_user always to 0 to default
   # using max_global_streams_per_user always.
-  # (See https://github.com/grafana/loki/blob/main/pkg/ingester/limiter.go#L73)
+  # (See https://github.com/pao214/loki/blob/main/pkg/ingester/limiter.go#L73)
   max_streams_per_user: 0
   max_line_size: 256000
   max_entries_limit_per_query: 5000
@@ -290,7 +290,7 @@ ingester_client:
 #
 # Values for not exposed fields are taken from the grafana/loki production
 # configuration manifests.
-# (See https://github.com/grafana/loki/blob/main/production/ksonnet/loki/config.libsonnet)
+# (See https://github.com/pao214/loki/blob/main/production/ksonnet/loki/config.libsonnet)
 limits_config:
   ingestion_rate_strategy: global
   ingestion_rate_mb: 4
@@ -304,7 +304,7 @@ limits_config:
   enforce_metric_name: false
   # Keep max_streams_per_user always to 0 to default
   # using max_global_streams_per_user always.
-  # (See https://github.com/grafana/loki/blob/main/pkg/ingester/limiter.go#L73)
+  # (See https://github.com/pao214/loki/blob/main/pkg/ingester/limiter.go#L73)
   max_streams_per_user: 0
   max_line_size: 256000
   max_entries_limit_per_query: 5000

@@ -10,15 +10,15 @@ import (
 	"github.com/grafana/dskit/flagext"
 	"github.com/pkg/errors"
 
-	"github.com/grafana/loki/pkg/loki/common"
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	"github.com/grafana/loki/pkg/util"
-	"github.com/grafana/loki/pkg/util/cfg"
+	"github.com/pao214/loki/pkg/loki/common"
+	"github.com/pao214/loki/pkg/storage/chunk/cache"
+	"github.com/pao214/loki/pkg/util"
+	"github.com/pao214/loki/pkg/util/cfg"
 
-	"github.com/grafana/loki/pkg/ruler/rulestore/local"
-	loki_storage "github.com/grafana/loki/pkg/storage"
-	chunk_storage "github.com/grafana/loki/pkg/storage/chunk/storage"
-	loki_net "github.com/grafana/loki/pkg/util/net"
+	"github.com/pao214/loki/pkg/ruler/rulestore/local"
+	loki_storage "github.com/pao214/loki/pkg/storage"
+	chunk_storage "github.com/pao214/loki/pkg/storage/chunk/storage"
+	loki_net "github.com/pao214/loki/pkg/util/net"
 )
 
 // ConfigWrapper is a struct containing the Loki config along with other values that can be set on the command line

@@ -14,7 +14,7 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/prometheus/storage"
 
-	util_log "github.com/grafana/loki/pkg/util/log"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 var (

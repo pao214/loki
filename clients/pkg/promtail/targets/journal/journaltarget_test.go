@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/grafana/loki/clients/pkg/promtail/client/fake"
-	"github.com/grafana/loki/clients/pkg/promtail/positions"
-	"github.com/grafana/loki/clients/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/clients/pkg/promtail/targets/testutils"
+	"github.com/pao214/loki/clients/pkg/promtail/client/fake"
+	"github.com/pao214/loki/clients/pkg/promtail/positions"
+	"github.com/pao214/loki/clients/pkg/promtail/scrapeconfig"
+	"github.com/pao214/loki/clients/pkg/promtail/targets/testutils"
 )
 
 type mockJournalReader struct {

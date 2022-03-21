@@ -3,8 +3,8 @@ package queryrange
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/querier/queryrange/queryrangebase"
+	"github.com/pao214/loki/pkg/logql"
+	"github.com/pao214/loki/pkg/querier/queryrange/queryrangebase"
 )
 
 type Metrics struct {

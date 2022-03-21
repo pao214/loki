@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki/pkg/ingester"
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/pkg/ingester"
+	"github.com/pao214/loki/pkg/storage"
+	"github.com/pao214/loki/pkg/storage/chunk"
 
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"

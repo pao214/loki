@@ -19,8 +19,8 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/logproto"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/logproto"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 // Pusher is an ingester server that accepts pushes.

@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/require"
 	ww "github.com/weaveworks/common/server"
 
-	"github.com/grafana/loki/clients/pkg/promtail/api"
+	"github.com/pao214/loki/clients/pkg/promtail/api"
 
-	"github.com/grafana/loki/pkg/logproto"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/pao214/loki/pkg/logproto"
+	util_log "github.com/pao214/loki/pkg/util/log"
 )
 
 func Test_multilineStage_Process(t *testing.T) {
