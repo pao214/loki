@@ -16,10 +16,10 @@ import (
 	ot "github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	chunk_util "github.com/grafana/loki/pkg/storage/chunk/util"
-	"github.com/grafana/loki/pkg/util/math"
-	"github.com/grafana/loki/pkg/util/spanlogger"
+	"github.com/pao214/loki/v2/pkg/storage/chunk"
+	chunk_util "github.com/pao214/loki/v2/pkg/storage/chunk/util"
+	"github.com/pao214/loki/v2/pkg/util/math"
+	"github.com/pao214/loki/v2/pkg/util/spanlogger"
 )
 
 const (

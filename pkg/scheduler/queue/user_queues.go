@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/grafana/loki/pkg/util"
+	"github.com/pao214/loki/v2/pkg/util"
 )
 
 // querier holds information about a querier registered in the queue.

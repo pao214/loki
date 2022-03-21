@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/v2/pkg/storage/chunk"
 )
 
 type prefixedObjectClient struct {

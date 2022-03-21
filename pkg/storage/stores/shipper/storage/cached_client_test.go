@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
+	"github.com/pao214/loki/v2/pkg/storage/chunk"
 )
 
 type mockObjectClient struct {

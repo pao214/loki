@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logproto"
+	"github.com/pao214/loki/v2/pkg/logproto"
 )
 
 func Test_CachedIterator(t *testing.T) {

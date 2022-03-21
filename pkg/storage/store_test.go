@@ -20,17 +20,17 @@ import (
 
 	"github.com/grafana/dskit/flagext"
 
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/querier/astmapper"
-	"github.com/grafana/loki/pkg/storage/chunk"
-	chunk_local "github.com/grafana/loki/pkg/storage/chunk/local"
-	"github.com/grafana/loki/pkg/storage/chunk/storage"
-	"github.com/grafana/loki/pkg/storage/stores/shipper"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/util/marshal"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/pao214/loki/v2/pkg/iter"
+	"github.com/pao214/loki/v2/pkg/logproto"
+	"github.com/pao214/loki/v2/pkg/logql"
+	"github.com/pao214/loki/v2/pkg/querier/astmapper"
+	"github.com/pao214/loki/v2/pkg/storage/chunk"
+	chunk_local "github.com/pao214/loki/v2/pkg/storage/chunk/local"
+	"github.com/pao214/loki/v2/pkg/storage/chunk/storage"
+	"github.com/pao214/loki/v2/pkg/storage/stores/shipper"
+	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v2/pkg/util/marshal"
+	"github.com/pao214/loki/v2/pkg/validation"
 )
 
 var (

@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/logql/syntax"
-	"github.com/grafana/loki/pkg/tenant"
+	"github.com/pao214/loki/v2/pkg/iter"
+	"github.com/pao214/loki/v2/pkg/logproto"
+	"github.com/pao214/loki/v2/pkg/logql"
+	"github.com/pao214/loki/v2/pkg/logql/syntax"
+	"github.com/pao214/loki/v2/pkg/tenant"
 )
 
 func TestMultiTenantQuerier_SelectLogs(t *testing.T) {
