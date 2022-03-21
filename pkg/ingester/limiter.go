@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 const (

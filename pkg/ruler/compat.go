@@ -23,12 +23,12 @@ import (
 	"github.com/weaveworks/common/user"
 	"gopkg.in/yaml.v3"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql"
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
-	ruler "github.com/pao214/loki/v2/pkg/ruler/base"
-	"github.com/pao214/loki/v2/pkg/ruler/rulespb"
-	"github.com/pao214/loki/v2/pkg/ruler/util"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
+	ruler "github.com/pao214/loki/v3/pkg/ruler/base"
+	"github.com/pao214/loki/v3/pkg/ruler/rulespb"
+	"github.com/pao214/loki/v3/pkg/ruler/util"
 )
 
 // RulesLimits is the one function we need from limits.Overrides, and

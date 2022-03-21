@@ -6,7 +6,7 @@ import (
 
 	prom "github.com/prometheus/prometheus/web/api/v1"
 
-	"github.com/pao214/loki/v2/pkg/util/build"
+	"github.com/pao214/loki/v3/pkg/util/build"
 )
 
 func versionHandler() http.HandlerFunc {

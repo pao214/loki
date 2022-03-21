@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/querier/astmapper"
+	"github.com/pao214/loki/v3/pkg/querier/astmapper"
 )
 
 func TestGenLabelsCorrectness(t *testing.T) {

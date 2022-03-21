@@ -19,11 +19,11 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/pao214/loki/v2/pkg/chunkenc"
-	"github.com/pao214/loki/v2/pkg/ingester/client"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql/log"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/chunkenc"
+	"github.com/pao214/loki/v3/pkg/ingester/client"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql/log"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 func TestTransferOut(t *testing.T) {

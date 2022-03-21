@@ -9,9 +9,9 @@ import (
 	"github.com/prometheus/prometheus/promql"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/iter"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/iter"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
 )
 
 var samples = []logproto.Sample{

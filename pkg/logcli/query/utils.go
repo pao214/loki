@@ -1,7 +1,7 @@
 package query
 
 import (
-	"github.com/pao214/loki/v2/pkg/loghttp"
+	"github.com/pao214/loki/v3/pkg/loghttp"
 )
 
 // return commonLabels labels between given labels set

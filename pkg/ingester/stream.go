@@ -15,15 +15,15 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/pao214/loki/v2/pkg/chunkenc"
-	"github.com/pao214/loki/v2/pkg/iter"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql/log"
-	"github.com/pao214/loki/v2/pkg/logqlmodel/stats"
-	"github.com/pao214/loki/v2/pkg/usagestats"
-	"github.com/pao214/loki/v2/pkg/util/flagext"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/chunkenc"
+	"github.com/pao214/loki/v3/pkg/iter"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql/log"
+	"github.com/pao214/loki/v3/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/v3/pkg/usagestats"
+	"github.com/pao214/loki/v3/pkg/util/flagext"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 var (

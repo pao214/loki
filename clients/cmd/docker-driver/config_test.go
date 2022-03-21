@@ -12,9 +12,9 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/clients/pkg/logentry/stages"
+	"github.com/pao214/loki/v3/clients/pkg/logentry/stages"
 
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 var jobRename = `

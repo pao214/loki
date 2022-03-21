@@ -1,6 +1,6 @@
 package logql
 
-import "github.com/pao214/loki/v2/pkg/logql/syntax"
+import "github.com/pao214/loki/v3/pkg/logql/syntax"
 
 // optimizeSampleExpr Attempt to optimize the SampleExpr to another that will run faster but will produce the same result.
 func optimizeSampleExpr(expr syntax.SampleExpr) (syntax.SampleExpr, error) {

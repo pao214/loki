@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql"
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
-	"github.com/pao214/loki/v2/pkg/logqlmodel"
-	"github.com/pao214/loki/v2/pkg/logqlmodel/stats"
-	"github.com/pao214/loki/v2/pkg/querier/queryrange/queryrangebase"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/logqlmodel"
+	"github.com/pao214/loki/v3/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/v3/pkg/querier/queryrange/queryrangebase"
 )
 
 func testSampleStreams() []queryrangebase.SampleStream {

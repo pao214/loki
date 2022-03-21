@@ -25,12 +25,12 @@ import (
 	"github.com/uber/jaeger-client-go"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/cache"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/util/spanlogger"
-	"github.com/pao214/loki/v2/pkg/util/validation"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/cache"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/util/spanlogger"
+	"github.com/pao214/loki/v3/pkg/util/validation"
 )
 
 var (

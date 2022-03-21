@@ -3,17 +3,17 @@ package gateway
 import (
 	"context"
 
-	"github.com/pao214/loki/v2/operator/internal/manifests/openshift"
+	"github.com/pao214/loki/v3/operator/internal/manifests/openshift"
 
 	"github.com/ViaQ/logerr/log"
 
 	"github.com/ViaQ/logerr/kverrors"
-	"github.com/pao214/loki/v2/operator/internal/manifests"
+	"github.com/pao214/loki/v3/operator/internal/manifests"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/json"
 	"sigs.k8s.io/yaml"
 
-	"github.com/pao214/loki/v2/operator/internal/external/k8s"
+	"github.com/pao214/loki/v3/operator/internal/external/k8s"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )

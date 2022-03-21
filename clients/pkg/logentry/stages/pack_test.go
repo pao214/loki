@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/require"
 	ww "github.com/weaveworks/common/server"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/api"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/api"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logqlmodel"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logqlmodel"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 // Not all these are tested but are here to make sure the different types marshal without error

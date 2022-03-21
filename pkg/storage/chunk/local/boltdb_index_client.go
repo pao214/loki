@@ -15,9 +15,9 @@ import (
 	"github.com/pkg/errors"
 	"go.etcd.io/bbolt"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	chunk_util "github.com/pao214/loki/v2/pkg/storage/chunk/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	chunk_util "github.com/pao214/loki/v3/pkg/storage/chunk/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 var (

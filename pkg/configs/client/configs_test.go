@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/configs/userconfig"
+	"github.com/pao214/loki/v3/pkg/configs/userconfig"
 )
 
 var response = `{

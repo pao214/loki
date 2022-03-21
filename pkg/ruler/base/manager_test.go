@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/pao214/loki/v2/pkg/ruler/rulespb"
-	"github.com/pao214/loki/v2/pkg/util/test"
+	"github.com/pao214/loki/v3/pkg/ruler/rulespb"
+	"github.com/pao214/loki/v3/pkg/util/test"
 )
 
 func TestSyncRuleGroups(t *testing.T) {

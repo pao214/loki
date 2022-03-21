@@ -11,10 +11,10 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/model/relabel"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/api"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/api"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/util"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/util"
 )
 
 // LogEntry that will be written to the pubsub topic.

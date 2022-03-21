@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logproto"
 )
 
 func TestParseLabelQuery(t *testing.T) {

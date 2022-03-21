@@ -15,12 +15,12 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/discovery/targetgroup"
 
-	"github.com/pao214/loki/v2/clients/pkg/logentry/stages"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/api"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/scrapeconfig"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/target"
+	"github.com/pao214/loki/v3/clients/pkg/logentry/stages"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/api"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/scrapeconfig"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/target"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logproto"
 )
 
 // bufferSize is the size of the buffered reader

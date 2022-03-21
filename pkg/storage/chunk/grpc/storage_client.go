@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
 )
 
 type StorageClient struct {

@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"text/template"
 
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
 
 	"github.com/ViaQ/logerr/kverrors"
 )

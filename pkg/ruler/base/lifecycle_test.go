@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk/storage"
-	"github.com/pao214/loki/v2/pkg/util/test"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/storage"
+	"github.com/pao214/loki/v3/pkg/util/test"
 )
 
 // TestRulerShutdown tests shutting down ruler unregisters correctly

@@ -9,8 +9,8 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/scrapeconfig"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/windows/win_eventlog"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/scrapeconfig"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/windows/win_eventlog"
 )
 
 type Event struct {

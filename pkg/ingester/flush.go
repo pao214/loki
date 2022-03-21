@@ -15,13 +15,13 @@ import (
 	"github.com/weaveworks/common/user"
 	"golang.org/x/net/context"
 
-	"github.com/pao214/loki/v2/pkg/chunkenc"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	"github.com/pao214/loki/v2/pkg/usagestats"
-	"github.com/pao214/loki/v2/pkg/util"
-	loki_util "github.com/pao214/loki/v2/pkg/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/chunkenc"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	"github.com/pao214/loki/v3/pkg/usagestats"
+	"github.com/pao214/loki/v3/pkg/util"
+	loki_util "github.com/pao214/loki/v3/pkg/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 var (

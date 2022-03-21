@@ -7,7 +7,7 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 func TestStreamsMap(t *testing.T) {

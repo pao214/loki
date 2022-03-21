@@ -14,13 +14,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/pao214/loki/v2/pkg/chunkenc"
-	"github.com/pao214/loki/v2/pkg/ingester/client"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql/log"
-	"github.com/pao214/loki/v2/pkg/runtime"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/chunkenc"
+	"github.com/pao214/loki/v3/pkg/ingester/client"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql/log"
+	"github.com/pao214/loki/v3/pkg/runtime"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 // small util for ensuring data exists as we expect

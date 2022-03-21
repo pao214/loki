@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logqlmodel/stats"
-	"github.com/pao214/loki/v2/pkg/util"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/v3/pkg/util"
 )
 
 // EntryIterator iterates over entries in time-order.

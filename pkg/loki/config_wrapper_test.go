@@ -14,17 +14,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/distributor"
-	"github.com/pao214/loki/v2/pkg/loki/common"
-	"github.com/pao214/loki/v2/pkg/storage/bucket/swift"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/aws"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/azure"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/gcp"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/storage"
-	"github.com/pao214/loki/v2/pkg/util"
-	"github.com/pao214/loki/v2/pkg/util/cfg"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	loki_net "github.com/pao214/loki/v2/pkg/util/net"
+	"github.com/pao214/loki/v3/pkg/distributor"
+	"github.com/pao214/loki/v3/pkg/loki/common"
+	"github.com/pao214/loki/v3/pkg/storage/bucket/swift"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/aws"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/azure"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/gcp"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/storage"
+	"github.com/pao214/loki/v3/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util/cfg"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	loki_net "github.com/pao214/loki/v3/pkg/util/net"
 )
 
 // Can't use a totally empty yaml file or it causes weird behavior in the unmarshalling.

@@ -13,12 +13,12 @@ import (
 	"github.com/weaveworks/common/logging"
 	"github.com/weaveworks/common/tracing"
 
-	"github.com/pao214/loki/v2/pkg/loki"
-	"github.com/pao214/loki/v2/pkg/util"
-	_ "github.com/pao214/loki/v2/pkg/util/build"
-	"github.com/pao214/loki/v2/pkg/util/cfg"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/loki"
+	"github.com/pao214/loki/v3/pkg/util"
+	_ "github.com/pao214/loki/v3/pkg/util/build"
+	"github.com/pao214/loki/v3/pkg/util/cfg"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 func main() {
@@ -90,7 +90,7 @@ func main() {
 
 	// Allocate a block of memory to reduce the frequency of garbage collection.
 	// The larger the ballast, the lower the garbage collection frequency.
-	// https://github.com/pao214/loki/v2/issues/781
+	// https://github.com/pao214/loki/v3/issues/781
 	ballast := make([]byte, config.BallastBytes)
 	runtime.KeepAlive(ballast)
 

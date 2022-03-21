@@ -6,9 +6,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/iter"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql/log"
+	"github.com/pao214/loki/v3/pkg/iter"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql/log"
 )
 
 const (

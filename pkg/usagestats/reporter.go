@@ -17,8 +17,8 @@ import (
 	"github.com/grafana/dskit/services"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/util/build"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/util/build"
 )
 
 const (

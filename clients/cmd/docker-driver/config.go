@@ -20,11 +20,11 @@ import (
 	"github.com/prometheus/prometheus/model/relabel"
 	"gopkg.in/yaml.v2"
 
-	"github.com/pao214/loki/v2/clients/pkg/logentry/stages"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/client"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/file"
+	"github.com/pao214/loki/v3/clients/pkg/logentry/stages"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/client"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/file"
 
-	"github.com/pao214/loki/v2/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util"
 )
 
 const (

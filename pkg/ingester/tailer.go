@@ -10,11 +10,11 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"golang.org/x/net/context"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql/log"
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
-	"github.com/pao214/loki/v2/pkg/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql/log"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 const bufferSizeForTailResponse = 5

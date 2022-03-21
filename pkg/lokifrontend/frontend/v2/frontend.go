@@ -23,11 +23,11 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"go.uber.org/atomic"
 
-	"github.com/pao214/loki/v2/pkg/lokifrontend/frontend/v2/frontendv2pb"
-	"github.com/pao214/loki/v2/pkg/querier/stats"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	lokigrpc "github.com/pao214/loki/v2/pkg/util/httpgrpc"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/lokifrontend/frontend/v2/frontendv2pb"
+	"github.com/pao214/loki/v3/pkg/querier/stats"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	lokigrpc "github.com/pao214/loki/v3/pkg/util/httpgrpc"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 // Config for a Frontend.

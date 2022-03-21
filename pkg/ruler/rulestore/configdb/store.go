@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/pao214/loki/v2/pkg/configs/client"
-	"github.com/pao214/loki/v2/pkg/configs/userconfig"
-	"github.com/pao214/loki/v2/pkg/ruler/rulespb"
+	"github.com/pao214/loki/v3/pkg/configs/client"
+	"github.com/pao214/loki/v3/pkg/configs/userconfig"
+	"github.com/pao214/loki/v3/pkg/ruler/rulespb"
 )
 
 const (

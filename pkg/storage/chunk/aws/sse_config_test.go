@@ -6,7 +6,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	s3 "github.com/pao214/loki/v2/pkg/storage/bucket/s3"
+	s3 "github.com/pao214/loki/v3/pkg/storage/bucket/s3"
 )
 
 func TestNewSSEParsedConfig(t *testing.T) {

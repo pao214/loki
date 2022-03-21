@@ -20,17 +20,17 @@ import (
 	"github.com/weaveworks/common/user"
 	"golang.org/x/net/context"
 
-	"github.com/pao214/loki/v2/pkg/chunkenc"
-	"github.com/pao214/loki/v2/pkg/ingester/client"
-	"github.com/pao214/loki/v2/pkg/iter"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql"
-	"github.com/pao214/loki/v2/pkg/logql/log"
-	"github.com/pao214/loki/v2/pkg/runtime"
-	"github.com/pao214/loki/v2/pkg/storage"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/chunkenc"
+	"github.com/pao214/loki/v3/pkg/ingester/client"
+	"github.com/pao214/loki/v3/pkg/iter"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql"
+	"github.com/pao214/loki/v3/pkg/logql/log"
+	"github.com/pao214/loki/v3/pkg/runtime"
+	"github.com/pao214/loki/v3/pkg/storage"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 const (

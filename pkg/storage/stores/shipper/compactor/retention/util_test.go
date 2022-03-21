@@ -17,16 +17,16 @@ import (
 	"github.com/weaveworks/common/user"
 	"go.etcd.io/bbolt"
 
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
-	"github.com/pao214/loki/v2/pkg/storage"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/local"
-	chunk_storage "github.com/pao214/loki/v2/pkg/storage/chunk/storage"
-	chunk_util "github.com/pao214/loki/v2/pkg/storage/chunk/util"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper"
-	shipper_util "github.com/pao214/loki/v2/pkg/storage/stores/shipper/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/storage"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/local"
+	chunk_storage "github.com/pao214/loki/v3/pkg/storage/chunk/storage"
+	chunk_util "github.com/pao214/loki/v3/pkg/storage/chunk/util"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper"
+	shipper_util "github.com/pao214/loki/v3/pkg/storage/stores/shipper/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 func dayFromTime(t model.Time) chunk.DayTime {

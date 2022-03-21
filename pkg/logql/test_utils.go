@@ -13,11 +13,11 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	promql_parser "github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/pao214/loki/v2/pkg/iter"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql/log"
-	"github.com/pao214/loki/v2/pkg/logqlmodel"
-	"github.com/pao214/loki/v2/pkg/querier/astmapper"
+	"github.com/pao214/loki/v3/pkg/iter"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql/log"
+	"github.com/pao214/loki/v3/pkg/logqlmodel"
+	"github.com/pao214/loki/v3/pkg/querier/astmapper"
 )
 
 func NewMockQuerier(shards int, streams []logproto.Stream) MockQuerier {

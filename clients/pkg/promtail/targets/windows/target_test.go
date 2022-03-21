@@ -14,13 +14,13 @@ import (
 	"github.com/weaveworks/common/server"
 	"golang.org/x/sys/windows/svc/eventlog"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/api"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/client/fake"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/scrapeconfig"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/windows/win_eventlog"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/api"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/client/fake"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/scrapeconfig"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/windows/win_eventlog"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 func init() {

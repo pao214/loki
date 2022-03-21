@@ -11,9 +11,9 @@ import (
 	"github.com/prometheus/prometheus/promql"
 	promql_parser "github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/pao214/loki/v2/pkg/iter"
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
-	"github.com/pao214/loki/v2/pkg/logql/vector"
+	"github.com/pao214/loki/v3/pkg/iter"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/logql/vector"
 )
 
 // RangeVectorAggregator aggregates samples for a given range of samples.

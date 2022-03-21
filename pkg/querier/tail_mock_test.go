@@ -1,6 +1,6 @@
 package querier
 
-import "github.com/pao214/loki/v2/pkg/logproto"
+import "github.com/pao214/loki/v3/pkg/logproto"
 
 func mockTailResponse(stream logproto.Stream) *logproto.TailResponse {
 	return &logproto.TailResponse{

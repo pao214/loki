@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/manifests/openshift"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/manifests/openshift"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"

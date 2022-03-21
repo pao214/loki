@@ -12,11 +12,11 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/pao214/loki/v2/pkg/querier/astmapper"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/cache"
-	"github.com/pao214/loki/v2/pkg/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/util/spanlogger"
+	"github.com/pao214/loki/v3/pkg/querier/astmapper"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/cache"
+	"github.com/pao214/loki/v3/pkg/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/util/spanlogger"
 )
 
 // CardinalityExceededError is returned when the user reads a row that

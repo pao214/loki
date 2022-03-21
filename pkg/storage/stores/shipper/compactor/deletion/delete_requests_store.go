@@ -14,8 +14,8 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/storage"
 )
 
 type (

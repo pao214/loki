@@ -15,10 +15,10 @@ import (
 	json "github.com/json-iterator/go"
 	"github.com/prometheus/common/config"
 
-	"github.com/pao214/loki/v2/pkg/loghttp"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/util"
-	"github.com/pao214/loki/v2/pkg/util/build"
+	"github.com/pao214/loki/v3/pkg/loghttp"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util/build"
 )
 
 const (

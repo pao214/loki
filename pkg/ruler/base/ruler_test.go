@@ -40,16 +40,16 @@ import (
 	"google.golang.org/grpc"
 	"gopkg.in/yaml.v2"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/querier/series"
-	"github.com/pao214/loki/v2/pkg/ruler/rulespb"
-	"github.com/pao214/loki/v2/pkg/ruler/rulestore"
-	"github.com/pao214/loki/v2/pkg/ruler/rulestore/objectclient"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/hedging"
-	chunk_storage "github.com/pao214/loki/v2/pkg/storage/chunk/storage"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	"github.com/pao214/loki/v2/pkg/util"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/querier/series"
+	"github.com/pao214/loki/v3/pkg/ruler/rulespb"
+	"github.com/pao214/loki/v3/pkg/ruler/rulestore"
+	"github.com/pao214/loki/v3/pkg/ruler/rulestore/objectclient"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/hedging"
+	chunk_storage "github.com/pao214/loki/v3/pkg/storage/chunk/storage"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	"github.com/pao214/loki/v3/pkg/util"
 )
 
 func defaultRulerConfig(t testing.TB, store rulestore.RuleStore) Config {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 func TestResult(t *testing.T) {

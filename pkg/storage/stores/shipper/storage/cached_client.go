@@ -10,9 +10,9 @@ import (
 
 	"github.com/go-kit/log/level"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/util/spanlogger"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/util/spanlogger"
 )
 
 const (

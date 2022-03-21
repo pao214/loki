@@ -10,11 +10,11 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/pao214/loki/v2/pkg/ingester/client"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/cache"
-	promchunk "github.com/pao214/loki/v2/pkg/storage/chunk/encoding"
-	"github.com/pao214/loki/v2/pkg/util/validation"
+	"github.com/pao214/loki/v3/pkg/ingester/client"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/cache"
+	promchunk "github.com/pao214/loki/v3/pkg/storage/chunk/encoding"
+	"github.com/pao214/loki/v3/pkg/util/validation"
 )
 
 const (

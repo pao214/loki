@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
 )
 
 type mockTableQuerier struct {

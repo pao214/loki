@@ -10,14 +10,14 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/pao214/loki/v2/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util"
 
 	"github.com/prometheus/prometheus/promql"
 	"github.com/weaveworks/common/httpgrpc"
 	"github.com/weaveworks/common/user"
 
-	"github.com/pao214/loki/v2/pkg/logqlmodel"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/logqlmodel"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
 )
 
 // StatusClientClosedRequest is the status code for when a client request cancellation of an http request

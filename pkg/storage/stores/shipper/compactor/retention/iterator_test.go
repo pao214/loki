@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.etcd.io/bbolt"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/local"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/storage"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/local"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/storage"
 )
 
 func Test_ChunkIterator(t *testing.T) {

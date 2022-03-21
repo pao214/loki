@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/util"
-	util_math "github.com/pao214/loki/v2/pkg/util/math"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/util"
+	util_math "github.com/pao214/loki/v3/pkg/util/math"
 )
 
 const (

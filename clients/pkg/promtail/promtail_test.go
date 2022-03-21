@@ -30,17 +30,17 @@ import (
 	"github.com/stretchr/testify/require"
 	serverww "github.com/weaveworks/common/server"
 
-	"github.com/pao214/loki/v2/clients/pkg/logentry/stages"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/client"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/config"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/positions"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/scrapeconfig"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/server"
-	file2 "github.com/pao214/loki/v2/clients/pkg/promtail/targets/file"
+	"github.com/pao214/loki/v3/clients/pkg/logentry/stages"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/client"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/config"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/positions"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/scrapeconfig"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/server"
+	file2 "github.com/pao214/loki/v3/clients/pkg/promtail/targets/file"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 const httpTestPort = 9080

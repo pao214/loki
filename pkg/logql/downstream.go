@@ -10,13 +10,13 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/prometheus/promql"
 
-	"github.com/pao214/loki/v2/pkg/iter"
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
-	"github.com/pao214/loki/v2/pkg/logqlmodel"
-	"github.com/pao214/loki/v2/pkg/logqlmodel/stats"
-	"github.com/pao214/loki/v2/pkg/querier/astmapper"
-	"github.com/pao214/loki/v2/pkg/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/iter"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/logqlmodel"
+	"github.com/pao214/loki/v3/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/v3/pkg/querier/astmapper"
+	"github.com/pao214/loki/v3/pkg/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 /*

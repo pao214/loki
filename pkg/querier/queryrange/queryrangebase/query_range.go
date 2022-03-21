@@ -22,9 +22,9 @@ import (
 	"github.com/prometheus/prometheus/model/timestamp"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/util"
-	"github.com/pao214/loki/v2/pkg/util/spanlogger"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util/spanlogger"
 )
 
 // StatusSuccess Prometheus success result.

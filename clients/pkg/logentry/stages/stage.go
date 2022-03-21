@@ -11,7 +11,7 @@ import (
 	"github.com/prometheus/common/model"
 	"gopkg.in/yaml.v2"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/api"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/api"
 )
 
 const (

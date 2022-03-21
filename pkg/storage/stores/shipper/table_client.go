@@ -3,9 +3,9 @@ package shipper
 import (
 	"context"
 
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/storage"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
 )
 
 type boltDBShipperTableClient struct {

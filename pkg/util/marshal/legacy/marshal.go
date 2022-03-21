@@ -9,9 +9,9 @@ import (
 	"github.com/gorilla/websocket"
 	json "github.com/json-iterator/go"
 
-	loghttp "github.com/pao214/loki/v2/pkg/loghttp/legacy"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logqlmodel"
+	loghttp "github.com/pao214/loki/v3/pkg/loghttp/legacy"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logqlmodel"
 )
 
 // Note that the below methods directly marshal the values passed in.  This is because these objects currently marshal

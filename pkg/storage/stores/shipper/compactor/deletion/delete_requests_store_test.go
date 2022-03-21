@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/storage"
 
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk/local"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/local"
 )
 
 func TestDeleteRequestsStore(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 
 	"github.com/grafana/dskit/flagext"
 
-	"github.com/pao214/loki/v2/pkg/configs/client"
-	"github.com/pao214/loki/v2/pkg/ruler/rulestore/configdb"
-	"github.com/pao214/loki/v2/pkg/ruler/rulestore/local"
-	"github.com/pao214/loki/v2/pkg/storage/bucket"
+	"github.com/pao214/loki/v3/pkg/configs/client"
+	"github.com/pao214/loki/v3/pkg/ruler/rulestore/configdb"
+	"github.com/pao214/loki/v3/pkg/ruler/rulestore/local"
+	"github.com/pao214/loki/v3/pkg/storage/bucket"
 )
 
 // Config configures a rule store.

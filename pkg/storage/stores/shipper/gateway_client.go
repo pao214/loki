@@ -15,11 +15,11 @@ import (
 	"github.com/weaveworks/common/instrument"
 	"google.golang.org/grpc"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
-	shipper_util "github.com/pao214/loki/v2/pkg/storage/stores/shipper/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	util_math "github.com/pao214/loki/v2/pkg/util/math"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
+	shipper_util "github.com/pao214/loki/v3/pkg/storage/stores/shipper/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	util_math "github.com/pao214/loki/v3/pkg/util/math"
 )
 
 const (

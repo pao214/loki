@@ -6,8 +6,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/manifests/internal"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/manifests/internal"
 	"github.com/stretchr/testify/require"
 )
 

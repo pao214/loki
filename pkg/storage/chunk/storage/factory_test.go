@@ -11,10 +11,10 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/cassandra"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/local"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/cassandra"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/local"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 func TestFactoryStop(t *testing.T) {

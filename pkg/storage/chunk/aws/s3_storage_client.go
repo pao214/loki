@@ -30,10 +30,10 @@ import (
 	awscommon "github.com/weaveworks/common/aws"
 	"github.com/weaveworks/common/instrument"
 
-	bucket_s3 "github.com/pao214/loki/v2/pkg/storage/bucket/s3"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/hedging"
-	"github.com/pao214/loki/v2/pkg/util"
+	bucket_s3 "github.com/pao214/loki/v3/pkg/storage/bucket/s3"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/hedging"
+	"github.com/pao214/loki/v3/pkg/util"
 )
 
 const (

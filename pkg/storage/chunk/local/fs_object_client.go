@@ -13,10 +13,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/thanos-io/thanos/pkg/runutil"
 
-	"github.com/pao214/loki/v2/pkg/ruler/rulestore/local"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/ruler/rulestore/local"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 // FSConfig is the config for a FSObjectClient.

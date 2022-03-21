@@ -3,8 +3,8 @@ package manifests_test
 import (
 	"testing"
 
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/manifests"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/manifests"
 	"github.com/stretchr/testify/require"
 )
 

@@ -21,9 +21,9 @@ import (
 	"github.com/weaveworks/common/user"
 	"gopkg.in/yaml.v2"
 
-	"github.com/pao214/loki/v2/pkg/ruler/storage/cleaner"
-	"github.com/pao214/loki/v2/pkg/ruler/storage/instance"
-	"github.com/pao214/loki/v2/pkg/ruler/storage/wal"
+	"github.com/pao214/loki/v3/pkg/ruler/storage/cleaner"
+	"github.com/pao214/loki/v3/pkg/ruler/storage/instance"
+	"github.com/pao214/loki/v3/pkg/ruler/storage/wal"
 )
 
 type walRegistry struct {

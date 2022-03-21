@@ -24,7 +24,7 @@ import (
 	"github.com/prometheus/common/model"
 	errs "github.com/weaveworks/common/errors"
 
-	"github.com/pao214/loki/v2/pkg/prom1/storage/metric"
+	"github.com/pao214/loki/v3/pkg/prom1/storage/metric"
 )
 
 const (

@@ -14,7 +14,7 @@ import (
 	"github.com/pierrec/lz4/v4"
 	"github.com/prometheus/prometheus/util/pool"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logproto"
 )
 
 // WriterPool is a pool of io.Writer

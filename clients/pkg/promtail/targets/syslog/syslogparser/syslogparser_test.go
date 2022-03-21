@@ -9,7 +9,7 @@ import (
 	"github.com/influxdata/go-syslog/v3/rfc5424"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/syslog/syslogparser"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/syslog/syslogparser"
 )
 
 var (

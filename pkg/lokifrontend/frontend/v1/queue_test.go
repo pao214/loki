@@ -17,7 +17,7 @@ import (
 	"github.com/weaveworks/common/user"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/pao214/loki/v2/pkg/lokifrontend/frontend/v1/frontendv1pb"
+	"github.com/pao214/loki/v3/pkg/lokifrontend/frontend/v1/frontendv1pb"
 )
 
 func setupFrontend(t *testing.T, config Config) *Frontend {

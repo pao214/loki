@@ -3,7 +3,7 @@ package querier
 import (
 	"github.com/grafana/dskit/flagext"
 
-	"github.com/pao214/loki/v2/pkg/util/validation"
+	"github.com/pao214/loki/v3/pkg/util/validation"
 )
 
 func DefaultLimitsConfig() validation.Limits {

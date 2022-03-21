@@ -20,16 +20,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.etcd.io/bbolt"
 
-	"github.com/pao214/loki/v2/pkg/chunkenc"
-	"github.com/pao214/loki/v2/pkg/ingester/client"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/local"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/objectclient"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/storage"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/chunkenc"
+	"github.com/pao214/loki/v3/pkg/ingester/client"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/local"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/objectclient"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/storage"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 type mockChunkClient struct {

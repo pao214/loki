@@ -3,7 +3,7 @@ package base
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/pao214/loki/v2/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util"
 )
 
 // ManagerMetrics aggregates metrics exported by the Prometheus

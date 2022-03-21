@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/ViaQ/logerr/kverrors"
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/external/k8s"
-	"github.com/pao214/loki/v2/operator/internal/manifests"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/external/k8s"
+	"github.com/pao214/loki/v3/operator/internal/manifests"
 
 	corev1 "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

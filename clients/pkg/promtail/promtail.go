@@ -6,13 +6,13 @@ import (
 	"github.com/go-kit/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/pao214/loki/v2/clients/pkg/logentry/stages"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/client"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/config"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/server"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets"
+	"github.com/pao214/loki/v3/clients/pkg/logentry/stages"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/client"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/config"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/server"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets"
 
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 // Option is a function that can be passed to the New method of Promtail and

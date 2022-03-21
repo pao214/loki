@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/storage"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/testutil"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/testutil"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 func buildTestTableManager(t *testing.T, path string) (*TableManager, stopFunc) {

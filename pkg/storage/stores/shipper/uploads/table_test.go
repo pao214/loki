@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/local"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/storage"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/testutil"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/local"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/testutil"
 )
 
 const (

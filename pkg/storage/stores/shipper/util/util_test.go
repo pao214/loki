@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk/local"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/util"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/storage"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/testutil"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/local"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/util"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/testutil"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 func Test_GetFileFromStorage(t *testing.T) {

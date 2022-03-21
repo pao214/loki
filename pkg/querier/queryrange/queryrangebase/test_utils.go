@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/storage"
 
-	"github.com/pao214/loki/v2/pkg/querier/astmapper"
-	"github.com/pao214/loki/v2/pkg/querier/series"
+	"github.com/pao214/loki/v3/pkg/querier/astmapper"
+	"github.com/pao214/loki/v3/pkg/querier/series"
 )
 
 // genLabels will create a slice of labels where each label has an equal chance to occupy a value from [0,labelBuckets]. It returns a slice of length labelBuckets^len(labelSet)

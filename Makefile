@@ -43,7 +43,7 @@ GIT_BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 DONT_FIND := -name tools -prune -o -name vendor -prune -o -name .git -prune -o -name .cache -prune -o -name .pkg -prune -o
 
 # Build flags
-VPREFIX := github.com/grafana/loki/pkg/util/build
+VPREFIX := github.com/pao214/loki/v3/pkg/util/build
 GO_LDFLAGS   := -X $(VPREFIX).Branch=$(GIT_BRANCH) -X $(VPREFIX).Version=$(IMAGE_TAG) -X $(VPREFIX).Revision=$(GIT_REVISION) -X $(VPREFIX).BuildUser=$(shell whoami)@$(shell hostname) -X $(VPREFIX).BuildDate=$(shell date -u +"%Y-%m-%dT%H:%M:%SZ")
 GO_FLAGS     := -ldflags "-extldflags \"-static\" -s -w $(GO_LDFLAGS)" -tags netgo
 DYN_GO_FLAGS := -ldflags "-s -w $(GO_LDFLAGS)" -tags netgo
@@ -640,13 +640,13 @@ endif
 # this will run the fuzzing using /tmp/testcase and save benchmark locally.
 test-fuzz:
 	$(GOTEST) -timeout 30s -tags dev,gofuzz -cpuprofile cpu.prof -memprofile mem.prof  \
-	  -run ^Test_Fuzz$$ github.com/grafana/loki/pkg/logql -v -count=1 -timeout=0s
+	  -run ^Test_Fuzz$$ github.com/pao214/loki/v3/pkg/logql -v -count=1 -timeout=0s
 
 format:
 	find . $(DONT_FIND) -name '*.pb.go' -prune -o -name '*.y.go' -prune -o -name '*.rl.go' -prune -o \
 		-type f -name '*.go' -exec gofmt -w -s {} \;
 	find . $(DONT_FIND) -name '*.pb.go' -prune -o -name '*.y.go' -prune -o -name '*.rl.go' -prune -o \
-		-type f -name '*.go' -exec goimports -w -local github.com/grafana/loki {} \;
+		-type f -name '*.go' -exec goimports -w -local github.com/pao214/loki/v3 {} \;
 
 ###################
 # Example Configs #

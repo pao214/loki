@@ -13,7 +13,7 @@ import (
 
 	"github.com/go-kit/log/level"
 
-	"github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/util/log"
 )
 
 type MockStorageMode int

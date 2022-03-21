@@ -20,11 +20,11 @@ import (
 	"github.com/prometheus/prometheus/model/relabel"
 	"go.uber.org/atomic"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/api"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/positions"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/target"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/api"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/positions"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/target"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logproto"
 )
 
 type Target struct {

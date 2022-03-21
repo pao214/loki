@@ -21,10 +21,10 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/api"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/api"
 
-	lokiutil "github.com/pao214/loki/v2/pkg/util"
-	"github.com/pao214/loki/v2/pkg/util/build"
+	lokiutil "github.com/pao214/loki/v3/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util/build"
 )
 
 const (

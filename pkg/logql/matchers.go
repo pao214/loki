@@ -4,7 +4,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
 )
 
 // Match extracts and parses multiple matcher groups from a slice of strings

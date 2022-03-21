@@ -9,7 +9,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/windows/win_eventlog"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/windows/win_eventlog"
 )
 
 type bookMark struct {

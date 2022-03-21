@@ -17,9 +17,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/client/fake"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/scrapeconfig"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/target"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/client/fake"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/scrapeconfig"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/target"
 )
 
 func TestGcplogTarget_Run(t *testing.T) {

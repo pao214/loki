@@ -9,10 +9,10 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/pao214/loki/v2/pkg/util/spanlogger"
+	"github.com/pao214/loki/v3/pkg/util/spanlogger"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 type IngesterQuerier interface {

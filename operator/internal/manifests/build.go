@@ -2,8 +2,8 @@ package manifests
 
 import (
 	"github.com/ViaQ/logerr/kverrors"
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/manifests/internal"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/manifests/internal"
 
 	"github.com/imdario/mergo"
 	"sigs.k8s.io/controller-runtime/pkg/client"

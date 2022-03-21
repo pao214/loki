@@ -1,6 +1,6 @@
 package iter
 
-import "github.com/pao214/loki/v2/pkg/logproto"
+import "github.com/pao214/loki/v3/pkg/logproto"
 
 // Iterator iterates over data in time-order.
 type Iterator interface {

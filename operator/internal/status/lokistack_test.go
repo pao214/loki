@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/external/k8s/k8sfakes"
-	"github.com/pao214/loki/v2/operator/internal/status"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/external/k8s/k8sfakes"
+	"github.com/pao214/loki/v3/operator/internal/status"
 
 	"github.com/stretchr/testify/require"
 

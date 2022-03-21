@@ -1,10 +1,10 @@
 package manifests
 
 import (
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/manifests/internal"
-	"github.com/pao214/loki/v2/operator/internal/manifests/openshift"
-	"github.com/pao214/loki/v2/operator/internal/manifests/storage"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/manifests/internal"
+	"github.com/pao214/loki/v3/operator/internal/manifests/openshift"
+	"github.com/pao214/loki/v3/operator/internal/manifests/storage"
 )
 
 // Options is a set of configuration values to use when building manifests such as resource sizes, etc.

@@ -11,12 +11,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	promql_parser "github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
-	"github.com/pao214/loki/v2/pkg/logqlmodel"
-	logql_stats "github.com/pao214/loki/v2/pkg/logqlmodel/stats"
-	"github.com/pao214/loki/v2/pkg/usagestats"
-	"github.com/pao214/loki/v2/pkg/util/httpreq"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/logqlmodel"
+	logql_stats "github.com/pao214/loki/v3/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/v3/pkg/usagestats"
+	"github.com/pao214/loki/v3/pkg/util/httpreq"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 const (

@@ -10,10 +10,10 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/prometheus/common/model"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/api"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/target"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/api"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/target"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logproto"
 )
 
 type runnableDroppedTarget struct {
@@ -70,7 +70,7 @@ func (t *Target) run() {
 		}
 
 		// TODO: Possibly need to format after merging with discovered labels because we can specify multiple labels in source labels
-		// https://github.com/pao214/loki/v2/pull/4745#discussion_r750022234
+		// https://github.com/pao214/loki/v3/pull/4745#discussion_r750022234
 		lbs := format([]labels.Label{{
 			Name:  labelKeyKafkaMessageKey,
 			Value: mk,

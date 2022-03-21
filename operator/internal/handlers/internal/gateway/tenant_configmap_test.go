@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pao214/loki/v2/operator/internal/manifests/openshift"
+	"github.com/pao214/loki/v3/operator/internal/manifests/openshift"
 
-	"github.com/pao214/loki/v2/operator/internal/external/k8s/k8sfakes"
+	"github.com/pao214/loki/v3/operator/internal/external/k8s/k8sfakes"
 	"github.com/stretchr/testify/require"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

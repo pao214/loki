@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/loghttp"
+	"github.com/pao214/loki/v3/pkg/loghttp"
 )
 
 // JSONLOutput prints logs and metadata as JSON Lines, suitable for scripts

@@ -11,12 +11,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/cache"
-	chunk_util "github.com/pao214/loki/v2/pkg/storage/chunk/util"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/util/spanlogger"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/cache"
+	chunk_util "github.com/pao214/loki/v3/pkg/storage/chunk/util"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/util/spanlogger"
 )
 
 var (

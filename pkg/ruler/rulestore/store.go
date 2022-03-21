@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/pao214/loki/v2/pkg/ruler/rulespb"
+	"github.com/pao214/loki/v3/pkg/ruler/rulespb"
 )
 
 var (

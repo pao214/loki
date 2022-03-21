@@ -3,7 +3,7 @@ package loghttp
 import (
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logproto"
 )
 
 // DroppedEntry represents a dropped entry in a tail call

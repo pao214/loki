@@ -20,11 +20,11 @@ import (
 	"github.com/weaveworks/common/user"
 	"gopkg.in/yaml.v3"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/ruler/rulespb"
-	"github.com/pao214/loki/v2/pkg/ruler/rulestore"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/ruler/rulespb"
+	"github.com/pao214/loki/v3/pkg/ruler/rulestore"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 // In order to reimplement the prometheus rules API, a large amount of code was copied over

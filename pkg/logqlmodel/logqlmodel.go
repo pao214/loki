@@ -3,8 +3,8 @@ package logqlmodel
 import (
 	"github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logqlmodel/stats"
 )
 
 // ValueTypeStreams promql.ValueType for log streams

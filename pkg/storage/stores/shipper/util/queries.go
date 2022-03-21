@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-kit/log/level"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	util_math "github.com/pao214/loki/v2/pkg/util/math"
-	"github.com/pao214/loki/v2/pkg/util/spanlogger"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	util_math "github.com/pao214/loki/v3/pkg/util/math"
+	"github.com/pao214/loki/v3/pkg/util/spanlogger"
 )
 
 const maxQueriesPerGoroutine = 100

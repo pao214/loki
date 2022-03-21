@@ -8,8 +8,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/logcli/client"
-	"github.com/pao214/loki/v2/pkg/loghttp"
+	"github.com/pao214/loki/v3/pkg/logcli/client"
+	"github.com/pao214/loki/v3/pkg/loghttp"
 )
 
 // SeriesQuery contains all necessary fields to execute label queries and print out the results

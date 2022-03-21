@@ -1,4 +1,4 @@
-module github.com/pao214/loki/v2
+module github.com/pao214/loki/v3
 
 go 1.18
 

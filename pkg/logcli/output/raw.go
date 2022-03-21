@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/loghttp"
+	"github.com/pao214/loki/v3/pkg/loghttp"
 )
 
 // RawOutput prints logs in their original form, without any metadata

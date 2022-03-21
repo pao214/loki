@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/compactor/retention"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/compactor/retention"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 const (

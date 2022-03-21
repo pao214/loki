@@ -3,7 +3,7 @@ package tsdb
 import (
 	"sync"
 
-	"github.com/pao214/loki/v2/pkg/storage/tsdb/index"
+	"github.com/pao214/loki/v3/pkg/storage/tsdb/index"
 )
 
 var (

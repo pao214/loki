@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/ViaQ/logerr/kverrors"
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/controllers/internal/management/state"
-	"github.com/pao214/loki/v2/operator/internal/external/k8s/k8sfakes"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/controllers/internal/management/state"
+	"github.com/pao214/loki/v3/operator/internal/external/k8s/k8sfakes"
 	"github.com/stretchr/testify/require"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

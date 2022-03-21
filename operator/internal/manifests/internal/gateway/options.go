@@ -1,8 +1,8 @@
 package gateway
 
 import (
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/manifests/openshift"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/manifests/openshift"
 )
 
 // Options is used to render the rbac.yaml and tenants.yaml file template

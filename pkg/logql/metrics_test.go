@@ -14,11 +14,11 @@ import (
 	"github.com/uber/jaeger-client-go"
 	"github.com/weaveworks/common/user"
 
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logqlmodel"
-	"github.com/pao214/loki/v2/pkg/logqlmodel/stats"
-	"github.com/pao214/loki/v2/pkg/util/httpreq"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logqlmodel"
+	"github.com/pao214/loki/v3/pkg/logqlmodel/stats"
+	"github.com/pao214/loki/v3/pkg/util/httpreq"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
 )
 
 func TestQueryType(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	promRules "github.com/prometheus/prometheus/rules"
 
-	"github.com/pao214/loki/v2/pkg/ruler/rulespb"
+	"github.com/pao214/loki/v3/pkg/ruler/rulespb"
 )
 
 const (

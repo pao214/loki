@@ -18,10 +18,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/pao214/loki/v2/pkg/ruler/storage/instance"
-	"github.com/pao214/loki/v2/pkg/ruler/util"
-	"github.com/pao214/loki/v2/pkg/util/test"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/ruler/storage/instance"
+	"github.com/pao214/loki/v3/pkg/ruler/util"
+	"github.com/pao214/loki/v3/pkg/util/test"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 const enabledRWTenant = "enabled"

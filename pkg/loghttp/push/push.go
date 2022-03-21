@@ -17,14 +17,14 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/pao214/loki/v2/pkg/loghttp"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql/syntax"
-	"github.com/pao214/loki/v2/pkg/usagestats"
-	"github.com/pao214/loki/v2/pkg/util"
-	loki_util "github.com/pao214/loki/v2/pkg/util"
-	"github.com/pao214/loki/v2/pkg/util/unmarshal"
-	unmarshal2 "github.com/pao214/loki/v2/pkg/util/unmarshal/legacy"
+	"github.com/pao214/loki/v3/pkg/loghttp"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql/syntax"
+	"github.com/pao214/loki/v3/pkg/usagestats"
+	"github.com/pao214/loki/v3/pkg/util"
+	loki_util "github.com/pao214/loki/v3/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util/unmarshal"
+	unmarshal2 "github.com/pao214/loki/v3/pkg/util/unmarshal/legacy"
 )
 
 var (

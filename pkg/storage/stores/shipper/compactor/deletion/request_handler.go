@@ -10,10 +10,10 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/promql/parser"
 
-	"github.com/pao214/loki/v2/pkg/tenant"
-	"github.com/pao214/loki/v2/pkg/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	serverutil "github.com/pao214/loki/v2/pkg/util/server"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	"github.com/pao214/loki/v3/pkg/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	serverutil "github.com/pao214/loki/v3/pkg/util/server"
 )
 
 // DeleteRequestHandler provides handlers for delete requests

@@ -26,16 +26,16 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/grpc"
 
-	"github.com/pao214/loki/v2/pkg/lokifrontend/frontend/v2/frontendv2pb"
-	"github.com/pao214/loki/v2/pkg/scheduler/queue"
-	"github.com/pao214/loki/v2/pkg/scheduler/schedulerpb"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	"github.com/pao214/loki/v2/pkg/util"
-	lokiutil "github.com/pao214/loki/v2/pkg/util"
-	lokigrpc "github.com/pao214/loki/v2/pkg/util/httpgrpc"
-	lokihttpreq "github.com/pao214/loki/v2/pkg/util/httpreq"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	"github.com/pao214/loki/v2/pkg/util/validation"
+	"github.com/pao214/loki/v3/pkg/lokifrontend/frontend/v2/frontendv2pb"
+	"github.com/pao214/loki/v3/pkg/scheduler/queue"
+	"github.com/pao214/loki/v3/pkg/scheduler/schedulerpb"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	"github.com/pao214/loki/v3/pkg/util"
+	lokiutil "github.com/pao214/loki/v3/pkg/util"
+	lokigrpc "github.com/pao214/loki/v3/pkg/util/httpgrpc"
+	lokihttpreq "github.com/pao214/loki/v3/pkg/util/httpreq"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	"github.com/pao214/loki/v3/pkg/util/validation"
 )
 
 var errSchedulerIsNotRunning = errors.New("scheduler is not running")

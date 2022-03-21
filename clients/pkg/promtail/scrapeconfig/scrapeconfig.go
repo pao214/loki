@@ -27,8 +27,8 @@ import (
 	"github.com/prometheus/prometheus/model/relabel"
 	"github.com/weaveworks/common/server"
 
-	"github.com/pao214/loki/v2/clients/pkg/logentry/stages"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/discovery/consulagent"
+	"github.com/pao214/loki/v3/clients/pkg/logentry/stages"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/discovery/consulagent"
 )
 
 // Config describes a job to scrape.

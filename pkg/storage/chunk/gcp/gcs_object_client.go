@@ -12,9 +12,9 @@ import (
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/hedging"
-	"github.com/pao214/loki/v2/pkg/storage/chunk/util"
+	"github.com/pao214/loki/v3/pkg/storage/chunk"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/hedging"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/util"
 )
 
 type ClientFactory func(ctx context.Context, opts ...option.ClientOption) (*storage.Client, error)

@@ -20,9 +20,9 @@ import (
 	"github.com/prometheus/common/version"
 	serverww "github.com/weaveworks/common/server"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/server/ui"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets"
-	"github.com/pao214/loki/v2/clients/pkg/promtail/targets/target"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/server/ui"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/targets/target"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/pao214/loki/v2/operator/internal/external/k8s"
+	"github.com/pao214/loki/v3/operator/internal/external/k8s"
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"

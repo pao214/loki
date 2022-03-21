@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/compactor/deletion"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/compactor/deletion"
 
 	"github.com/go-kit/log/level"
 	"github.com/pkg/errors"
@@ -14,16 +14,16 @@ import (
 	"github.com/weaveworks/common/httpgrpc"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/pao214/loki/v2/pkg/iter"
-	"github.com/pao214/loki/v2/pkg/loghttp"
-	"github.com/pao214/loki/v2/pkg/logproto"
-	"github.com/pao214/loki/v2/pkg/logql"
-	"github.com/pao214/loki/v2/pkg/storage"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	listutil "github.com/pao214/loki/v2/pkg/util"
-	"github.com/pao214/loki/v2/pkg/util/spanlogger"
-	util_validation "github.com/pao214/loki/v2/pkg/util/validation"
-	"github.com/pao214/loki/v2/pkg/validation"
+	"github.com/pao214/loki/v3/pkg/iter"
+	"github.com/pao214/loki/v3/pkg/loghttp"
+	"github.com/pao214/loki/v3/pkg/logproto"
+	"github.com/pao214/loki/v3/pkg/logql"
+	"github.com/pao214/loki/v3/pkg/storage"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	listutil "github.com/pao214/loki/v3/pkg/util"
+	"github.com/pao214/loki/v3/pkg/util/spanlogger"
+	util_validation "github.com/pao214/loki/v3/pkg/util/validation"
+	"github.com/pao214/loki/v3/pkg/validation"
 )
 
 const (

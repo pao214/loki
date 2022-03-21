@@ -7,11 +7,11 @@ import (
 	monitoringv1 "github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring/v1"
 
 	"github.com/go-logr/logr"
-	"github.com/pao214/loki/v2/operator/controllers/internal/management/state"
-	"github.com/pao214/loki/v2/operator/internal/external/k8s"
-	"github.com/pao214/loki/v2/operator/internal/handlers"
-	"github.com/pao214/loki/v2/operator/internal/manifests"
-	"github.com/pao214/loki/v2/operator/internal/status"
+	"github.com/pao214/loki/v3/operator/controllers/internal/management/state"
+	"github.com/pao214/loki/v3/operator/internal/external/k8s"
+	"github.com/pao214/loki/v3/operator/internal/handlers"
+	"github.com/pao214/loki/v3/operator/internal/manifests"
+	"github.com/pao214/loki/v3/operator/internal/status"
 	routev1 "github.com/openshift/api/route/v1"
 
 	appsv1 "k8s.io/api/apps/v1"
@@ -26,7 +26,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/controller-runtime/pkg/predicate"
 
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
 )
 
 var (

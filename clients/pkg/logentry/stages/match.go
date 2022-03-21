@@ -9,7 +9,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 
-	"github.com/pao214/loki/v2/clients/pkg/logentry/logql"
+	"github.com/pao214/loki/v3/clients/pkg/logentry/logql"
 )
 
 const (

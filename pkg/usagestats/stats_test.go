@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pao214/loki/v2/pkg/util/build"
+	"github.com/pao214/loki/v3/pkg/util/build"
 
 	"github.com/google/uuid"
 	jsoniter "github.com/json-iterator/go"

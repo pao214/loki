@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	lokiv1beta1 "github.com/pao214/loki/v2/operator/api/v1beta1"
-	"github.com/pao214/loki/v2/operator/internal/manifests/storage"
+	lokiv1beta1 "github.com/pao214/loki/v3/operator/api/v1beta1"
+	"github.com/pao214/loki/v3/operator/internal/manifests/storage"
 )
 
 // Options is used to render the loki-config.yaml file template

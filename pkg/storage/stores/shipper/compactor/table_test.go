@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.etcd.io/bbolt"
 
-	"github.com/pao214/loki/v2/pkg/storage/chunk/local"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/compactor/retention"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/storage"
-	"github.com/pao214/loki/v2/pkg/storage/stores/shipper/testutil"
+	"github.com/pao214/loki/v3/pkg/storage/chunk/local"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/compactor/retention"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/storage"
+	"github.com/pao214/loki/v3/pkg/storage/stores/shipper/testutil"
 )
 
 const (

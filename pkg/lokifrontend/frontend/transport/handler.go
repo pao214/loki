@@ -18,11 +18,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	querier_stats "github.com/pao214/loki/v2/pkg/querier/stats"
-	"github.com/pao214/loki/v2/pkg/tenant"
-	"github.com/pao214/loki/v2/pkg/util"
-	util_log "github.com/pao214/loki/v2/pkg/util/log"
-	serverutil "github.com/pao214/loki/v2/pkg/util/server"
+	querier_stats "github.com/pao214/loki/v3/pkg/querier/stats"
+	"github.com/pao214/loki/v3/pkg/tenant"
+	"github.com/pao214/loki/v3/pkg/util"
+	util_log "github.com/pao214/loki/v3/pkg/util/log"
+	serverutil "github.com/pao214/loki/v3/pkg/util/server"
 )
 
 const (

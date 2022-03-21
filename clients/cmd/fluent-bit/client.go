@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/go-kit/log"
 
-	"github.com/pao214/loki/v2/clients/pkg/promtail/client"
+	"github.com/pao214/loki/v3/clients/pkg/promtail/client"
 )
 
 // NewClient creates a new client based on the fluentbit configuration.
